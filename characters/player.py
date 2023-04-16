@@ -45,6 +45,7 @@ class player:
         if collision:
             if self.y > collision_body.y - self.height:
                 self.y = collision_body.y - self.height + 1
+
         else:
             if self.y >= win_height - self.height:
                 self.y = win_height - self.height

@@ -1,2 +1,2 @@
-win_height = 600
-win_width = 1000
+win_height = 1000
+win_width = 500

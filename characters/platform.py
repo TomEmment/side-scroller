@@ -13,3 +13,9 @@ class platform:
                                 self.y,
                                 self.width,
                                 self.height)
+
+    def body_update(self):
+        self.body = pygame.Rect(self.x,
+                                self.y,
+                                self.width,
+                                self.height)
